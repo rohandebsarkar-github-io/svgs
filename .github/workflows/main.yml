@@ -44,3 +44,6 @@ jobs:
         
       - name: git add svgs/* && git commit -m "commiting svgs"
         run: git add svgs* && git commit -m "commiting svgs"
+        
+      - name: git push
+        run: git push
